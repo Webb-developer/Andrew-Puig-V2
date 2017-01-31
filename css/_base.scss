@@ -54,7 +54,14 @@ ol{
 
 a{
     color: inherit;
-    text-decoration: none;
+
+    &:not(.button){
+
+        &:hover,
+        &:focus{
+            @extend .opacify;
+        }
+    }
 }
 
 a, .a{
@@ -72,6 +79,10 @@ ins{
 
 h1, h2, h3, h4, h5, h6{
     font: inherit;
+}
+
+p{
+    max-width: 25rem;
 }
 
 html{
