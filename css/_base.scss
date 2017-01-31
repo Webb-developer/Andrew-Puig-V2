@@ -9,23 +9,14 @@
     }
 }
 
-iframe{
-    border: none;
-}
-
-img,
-object,
-video{
+img{
     max-width: 100%;
     height: auto;
     vertical-align: middle;
     border: none;
 }
 
-input,
-button,
-select,
-textarea{
+button{
     appearance: none;
     color: inherit;
     background: none;
@@ -35,20 +26,7 @@ textarea{
     text-transform: inherit;
 }
 
-select{
-    appearance: menulist;
-}
-
-select::-ms-expand{
-    display: none;
-}
-
-textarea{
-    resize: vertical;
-}
-
-ul,
-ol{
+ul{
     list-style-type: none;
 }
 
@@ -67,14 +45,6 @@ a{
 a, .a{
     cursor: pointer;
     touch-action: manipulation;
-}
-
-table{
-    width: 100%;
-}
-
-ins{
-    text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6{
