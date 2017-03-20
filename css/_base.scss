@@ -72,6 +72,10 @@ html{
     @media (min-width: 2200px){
         font-size: 275%;
     }
+
+    &::-webkit-scrollbar{
+    	width: 0;
+    }
 }
 
 body{
